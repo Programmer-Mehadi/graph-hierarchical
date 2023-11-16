@@ -1,10 +1,36 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.App .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.row_container {
+  display: flex;
+  justify-content: center;
+
+  gap: 20px;
+}
+.App p {
+  padding: 10px;
+  width: fit-content;
+}
+.root {
+  background-color: brown;
+  border-radius: 50%;
+  color: #ffffff;
+}
+.child {
+  background-color: seagreen;
+  border-radius: 50%;
+  color: #ffffff;
 }
 
 @media (prefers-reduced-motion: no-preference) {
